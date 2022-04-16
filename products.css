@@ -1,0 +1,25 @@
+h1{
+    text-align:center;
+}
+
+#container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color:#bdbdbd;
+    padding:30px;
+
+}
+#container > div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:1px solid #cecece;
+    border-radius:5px;
+}
+
+#sortByPrice, #sortByRating{
+    margin:18px;
+}

@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+}
+
+#cartContainer{
+    padding:30px;
+
+}
+
+#cartContainer >div{
+   border:1px solid #bdbdbd;
+   border-radius: 5px;
+   width:400px;
+   height:auto;
+   margin:25px;
+}
+
+#cartSummary{
+    padding:30px;
+
+}
+#cartSummary > div{
+    padding:18px;
+}
+
+input{
+    margin-left:15px;
+}

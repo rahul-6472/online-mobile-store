@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Payment</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input id  = "card" type="text" placeholder="enter your debit card no" />
+        <input  id = "cvv" type="number" placeholder="enter cvv" />
+        <input id = "date" type="date" placeholder="enter expiry date" />
+        <input type = "submit" value = "continue" />
+      </form>
+    </div>
+  </body>
+  <script>
+      document.querySelector("form").addEventListener("submit", () =>{
+          if (document.getElementById("card").value == "" || document.getElementById("cvv").value == "" || document.getElementById("date").value  == "" ){
+              alert("please enter valid data")
+          }
+          else{
+              alert("PAYMENT SUCCESFULL")
+          }
+      })
+  </script>
+</html>
